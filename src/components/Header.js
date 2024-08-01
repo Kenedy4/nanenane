@@ -1,6 +1,6 @@
 import React from "react";
-import Login from "./Attending";
-import Logout from "./NotAttening";
+import Attending from "./Attending";
+import NotAttending from "./NotAttening";
 
 function Header({ isAttending }) {
   return (
