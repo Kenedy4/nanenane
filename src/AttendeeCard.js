@@ -3,7 +3,7 @@ import React from "react";
 function AttendeeCard({ name, image, bio, age, attendanceStatus }) {
   return (
     <div className="card">
-      <img src={image} alt={`${name}'s picture`} />
+      <img src={image} alt={`${name}'Mother of All Maandamano`} />
       <h2>{name}</h2>
       <p>{bio}</p>
       <p>Age: {age}</p>

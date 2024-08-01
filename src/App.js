@@ -1,16 +1,15 @@
 import React from "react";
-import Header from "..Header";
+import Header from "./Header";
 import "./App.css";
-import Attending from "..Attending";
-import ScheduleList from "..ScheduleList";
-import NotAttending from "..NotAttending";
-import AttendeeCard from "..AttendeeCard";
+import Attending from "./Attending";
+import ScheduleList from "./ScheduleList";
+import NotAttending from "./NotAttending";
+import AttendeeCard from "./AttendeeCard";
 
 function App() {
   const schedule = [
     { title: "Event", date: "2024-08-08", time: "09:00 AM" },
     { title: "Event", date: "2024-08-08", time: "09:00 PM" },
-    // Add more event as needed
   ];
 
   const attendees = [
@@ -40,7 +39,7 @@ function App() {
       image: "https://example.com/quincy.jpg",
       bio: "Quincy is a 32-year-old woman who enjoys painting and sketching.",
       age: 32,
-      attendanceStatus: "attending",
+      attendanceStatus: "NotAttending",
     },
     {
       name: "Kenedy",
