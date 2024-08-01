@@ -1,7 +1,7 @@
 import React from "react";
 import Schedule from "./Schedule";
 
-function ScheduleList({ shchedule }) {
+function ScheduleList({ schedule }) {
   return (
     <div>
       <h2>Schedule</h2>
@@ -11,4 +11,5 @@ function ScheduleList({ shchedule }) {
     </div>
   );
 }
+
 export default ScheduleList;

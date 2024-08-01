@@ -1,6 +1,6 @@
 import React from "react";
 import Attending from "./Attending";
-import NotAttending from "./NotAttening";
+import NotAttending from "./NotAttending";
 
 function Header({ isAttending }) {
   return (

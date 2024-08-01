@@ -1,7 +1,7 @@
 import React from "react";
 
 function Attending() {
-  return <button style={{ color: Green }}>Attending</button>;
+  return <button style={{ color: "green" }}>Attending</button>;
 }
 
 export default Attending;
